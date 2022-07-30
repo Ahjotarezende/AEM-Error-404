@@ -25,6 +25,7 @@ import "./HeaderComponent/Header"
 import "./ButtonComponent/Button"
 import "./FooterComponent/Footer"
 import "./MainTextComponent/MainText"
+import "./ImageComponent/Image"
 
 import { MapTo } from "@adobe/aem-react-editable-components";
 
