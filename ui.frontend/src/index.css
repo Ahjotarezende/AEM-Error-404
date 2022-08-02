@@ -26,12 +26,110 @@ body {
   font: inherit;
   font-size: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
   vertical-align: baseline;
 }
 
 body {
   background-color: #ffffff;
+}
+
+.basicpage{
+  height: 100vh;
+}
+
+#spa-root{
+  height: 100vh;
+}
+
+#spa-root > div{
+  height: 100vh;
+}
+
+#spa-root > div > div{
+  height: 100vh;
+  padding: 0;
+}
+
+.spa{
+  padding: 0;
+  height: 100vh;
+}
+
+.spa > div{
+  height: 100vh;
+}
+
+.spa > div{
+  height: 100vh;
+}
+
+#spa-root > div > div > div > div > div > div{
+  height: 100vh;
+  padding: 0;
+}
+
+#spa-root > div > div > div > div > div > div{
+  height: 100vh;
+  padding: 0;
+}
+
+#spa-root > div > div > div > div > div > div > .aem-Grid{
+  height: 100vh;
+  padding: 0;
+}
+
+#spa-root > div > div > div > div > div > div > .aem-Grid > div:last-child{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 188px;
+  align-self: flex-end;
+  justify-self: end;
+}
+
+@media screen and (max-width: 1024px){
+  #spa-root > div > div > div > div > div > div > .aem-Grid > div:last-child{
+    margin-top: 195px;
+  }
+}
+
+@media screen and (max-width: 968px){
+  #spa-root > div > div > div > div > div > div > .aem-Grid > div:last-child{
+    margin-top: 234px;
+  }
+}
+
+@media screen and (max-width: 776px){
+  #spa-root > div > div > div > div > div > div > .aem-Grid > div:last-child{
+    margin-top: 233px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #spa-root > div > div > div > div > div > div > .aem-Grid > div:not(#spa-root > div > div > div > div > div > div > .aem-Grid > div:first-child){
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 0 20px;
+  }
+  .aem-GridColumn--default--5{
+    display: flex !important;
+    justify-content: center !important;
+  }
+  #spa-root > div > div > div > div > div > div > .aem-Grid > div:last-child{
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 667px) {
+  #spa-root > div > div > div > div > div > div > .aem-Grid > div:last-child{
+    height: 2px;
+  }
+}
+@media screen and (max-width: 280px) {
+  #spa-root > div > div > div > div > div > div > .aem-Grid > div:last-child{
+    height: 6%;
+  }
 }
 
 h1,
